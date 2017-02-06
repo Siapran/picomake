@@ -23,7 +23,7 @@ do
 end
 
 function visit( node )
-	assert(marked[node] ~= "temp", "Not a DAG")
+	assert(marked[node] ~= "temp", "Dependancy cycle detected.")
 	if marked[node] then
 		marked[node] = "temp"
 		for _,edge in ipairs(sources[node].edges) do
