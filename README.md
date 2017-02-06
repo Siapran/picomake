@@ -2,6 +2,8 @@
 
 A simple tool for merging splitted pico8 code back into a cart.
 
+Requires [picotool](https://github.com/dansanderson/picotool).
+
 ## Example usage
 
     > ls
